@@ -1,0 +1,169 @@
+#tittle {
+    color: tomato;
+}
+
+p.special {
+    color: mediumseagreen;
+}
+
+p.text {
+    color: slateblue;
+}
+
+div p {
+    color: aquamarine;
+}
+
+div h2,
+div h3 {
+    color: brown;
+}
+
+* {
+    font-size: 24px;
+    /*     color: black; */
+}
+
+/* comment*/
+/*
+.color {
+    color: #ff0000;
+}
+
+.color {
+    color: rgb(0, 255, 255);
+}
+*/
+.color {
+    /*     border: 2px black solid ;  */
+    border-style: solid;
+    border-color: blue;
+    border-radius: 4px;
+    border-width: 2px;
+}
+
+#background {
+    background-color: rgba(255, 0, 0);
+    /*     opacity: 0.3; */
+    height: 200PX;
+    background-image: url('/html/images/image1.jpg');
+    background-repeat: repeat-y;
+    background-position: center center;
+    background-size: 200px 200px;
+}
+
+.margin {
+    background-color: chocolate;
+    margin: 10px;
+    padding: 25px 20px 15px;
+    border: 1px solid black;
+    height: 100px;
+    width: 50px;
+    overflow: scroll;
+    outline: 1px solid red;
+}
+
+.text2 {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    text-decoration: overline;
+    text-shadow: 2px 3px 5px blue;
+}
+
+a:link {
+    color: blueviolet;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: yellowgreen;
+}
+
+a:active {
+    color: red;
+}
+
+ul {
+    background-color: cyan;
+    list-style-type: none;
+    padding-left: 0;
+/*     list-style-position: inside; */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #eee;
+    padding: 5px;
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(odd) {
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: #aaa;
+    cursor: pointer;
+}
+
+span {
+    display: block;
+/*     display: none;
+    visibility: hidden; */
+    max-width: 1000px;
+    background-color: blanchedalmond;
+}
+
+.inline {
+    display: inline;
+}
+
+#position {
+    position: sticky;
+    left: 20px;
+}
+
+.left {
+    float: left; 
+    height: 200px;
+}
+
+.container {
+    height: 200px;
+}
+
+.right {
+    float: right;
+}
+
+.column {
+    margin: 0;
+    padding: 10px 0;
+    width: 33.3%;
+}
+
+.inline-block {
+    display: inline-block;
+    height: 55px;
+    background-color: beige;
+}
+
+.center {
+    width: 200px;
+    margin: 0 auto;
+    background-color: aqua;
+    text-align: center;
+    padding: 10px 0;
+}
